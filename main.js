@@ -19,3 +19,9 @@ hideButton.onclick= function(){
   overlay.classList.toggle('showOverlay');
 
 }
+
+overlay.onclick = function(){
+  sideNav.classList.toggle('hideNav');
+  sideNav.classList.toggle('showNav');
+  overlay.classList.toggle('showOverlay');
+}
